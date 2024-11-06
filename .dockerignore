@@ -1,30 +1,16 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Ignore unnecessary files for Docker build
+.git
+.gitignore
+Dockerfile
+.dockerignore
+*.pyc
+*.pyo
+__pycache__
 
-# Environment files
-.env
-*.env
-
-# Docker-related files
-*.log
-docker-compose.override.yml
-
-# Virtual environments
+# Ignore virtual environments
 venv/
-.env/
 
-# System files
-.DS_Store
-Thumbs.db
+# Ignore environment variables or secret files
+.env
+.env.*
 
-# Python dependencies
-*.egg-info/
-dist/
-build/
-*.egg
-
-# QR code output
-*.png
-github_qr_code.png
