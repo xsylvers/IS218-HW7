@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+*.env
+
+# Docker-related files
+*.log
+docker-compose.override.yml
+
+# Virtual environments
+venv/
+.env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python dependencies
+*.egg-info/
+dist/
+build/
+*.egg
+
+# QR code output
+*.png
+github_qr_code.png
