@@ -1,4 +1,4 @@
-# Ignore unnecessary files for Docker build
+# Ignoring any unnecessary files for Docker build
 .git
 .gitignore
 Dockerfile
@@ -7,10 +7,10 @@ Dockerfile
 *.pyo
 __pycache__
 
-# Ignore virtual environments
+# Ignoring virtual environments
 venv/
 
-# Ignore environment variables or secret files
+# Ignoring environment variables or secret files
 .env
 .env.*
 
