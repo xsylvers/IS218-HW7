@@ -1,1 +1,2 @@
-qrcode[pil] # this line ensures that the qrcode and it's dependecies are installed when Docker builds the image
+# This line ensures that the qrcode and it's dependecies are installed when Docker builds the image
+qrcode[pil] 
