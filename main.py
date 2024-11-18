@@ -6,7 +6,8 @@ from pathlib import Path
 import os
 import argparse
 from datetime import datetime
-import validators #type: ignore
+import validators # Import the validators package #type: ignore
+
 
 # Load environment variables
 load_dotenv()
