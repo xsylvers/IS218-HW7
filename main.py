@@ -1,12 +1,12 @@
 import sys
-import qrcode
-from dotenv import load_dotenv
+import qrcode #type: ignore
+from dotenv import load_dotenv #type: ignore
 import logging.config
 from pathlib import Path
 import os
 import argparse
 from datetime import datetime
-import validators  # Import the validators package
+import validators #type: ignore
 
 # Load environment variables
 load_dotenv()
