@@ -1,2 +1,4 @@
 # Ensuring that the qrcode and it's dependecies are installed when Docker builds the image
 qrcode[pil] 
+python-dotenv
+validators
